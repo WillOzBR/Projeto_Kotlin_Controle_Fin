@@ -47,56 +47,56 @@ class TransactionAdapter : RecyclerView.Adapter<TransactionAdapter.TransactionVH
             transactionCategory.text = item.tag
 
             when (item.transactionType) {
-                "Income" -> {
-                    transactionAmount.setTextColor(
-                        ContextCompat.getColor(
-                            transactionAmount.context,
-                            R.color.income
-                        )
-                    )
-
-                    transactionAmount.text = "+ ".plus(indianRupee(item.amount))
-                }
-                "Expense" -> {
+                "Gasto" -> {
                     transactionAmount.setTextColor(
                         ContextCompat.getColor(
                             transactionAmount.context,
                             R.color.expense
                         )
                     )
+
                     transactionAmount.text = "- ".plus(indianRupee(item.amount))
+                }
+                "Ganho" -> {
+                    transactionAmount.setTextColor(
+                        ContextCompat.getColor(
+                            transactionAmount.context,
+                            R.color.income
+                        )
+                    )
+                    transactionAmount.text = "+ ".plus(indianRupee(item.amount))
                 }
             }
 
             when (item.tag) {
-                "Housing" -> {
+                "Casa" -> {
                     transactionIconView.setImageResource(R.drawable.ic_food)
                 }
-                "Transportation" -> {
+                "Transporte" -> {
                     transactionIconView.setImageResource(R.drawable.ic_transport)
                 }
-                "Food" -> {
+                "Comida" -> {
                     transactionIconView.setImageResource(R.drawable.ic_food)
                 }
-                "Utilities" -> {
+                "Utilidades" -> {
                     transactionIconView.setImageResource(R.drawable.ic_utilities)
                 }
-                "Insurance" -> {
+                "Seguro" -> {
                     transactionIconView.setImageResource(R.drawable.ic_insurance)
                 }
-                "Healthcare" -> {
+                "Saúde" -> {
                     transactionIconView.setImageResource(R.drawable.ic_medical)
                 }
-                "Saving & Debts" -> {
+                "Salvos & Debitos" -> {
                     transactionIconView.setImageResource(R.drawable.ic_savings)
                 }
-                "Personal Spending" -> {
+                "Gastos Pessoais" -> {
                     transactionIconView.setImageResource(R.drawable.ic_personal_spending)
                 }
-                "Entertainment" -> {
+                "Entretenimento" -> {
                     transactionIconView.setImageResource(R.drawable.ic_entertainment)
                 }
-                "Miscellaneous" -> {
+                "Diversos" -> {
                     transactionIconView.setImageResource(R.drawable.ic_others)
                 }
                 else -> {

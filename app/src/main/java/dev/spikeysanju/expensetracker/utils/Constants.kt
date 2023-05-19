@@ -2,18 +2,18 @@ package dev.spikeysanju.expensetracker.utils
 
 object Constants {
 
-    val transactionType = listOf("Income", "Expense")
+    val transactionType = listOf("Ganho", "Gasto")
 
     val transactionTags = listOf(
-        "Housing",
-        "Transportation",
-        "Food",
-        "Utilities",
-        "Insurance",
-        "Healthcare",
-        "Saving & Debts",
-        "Personal Spending",
-        "Entertainment",
-        "Miscellaneous"
+        "Casa",
+        "Transporte",
+        "Comida",
+        "Utilidades",
+        "Seguro",
+        "Saúde",
+        "Salvos & Debitos",
+        "Gastos Pessoais",
+        "Entretenimento",
+        "Diversos"
     )
 }

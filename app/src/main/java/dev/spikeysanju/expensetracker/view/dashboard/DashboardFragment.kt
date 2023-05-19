@@ -94,12 +94,12 @@ class DashboardFragment :
                         expenseCardView.totalTitle.text = getString(R.string.text_total_expense)
                         expenseCardView.totalIcon.setImageResource(R.drawable.ic_expense)
                     }
-                    "Income" -> {
+                    "Ganho" -> {
                         totalBalanceView.totalBalanceTitle.text =
                             getString(R.string.text_total_income)
                         totalIncomeExpenseView.hide()
                     }
-                    "Expense" -> {
+                    "Gasto" -> {
                         totalBalanceView.totalBalanceTitle.text =
                             getString(R.string.text_total_expense)
                         totalIncomeExpenseView.hide()
@@ -170,7 +170,7 @@ class DashboardFragment :
     }
 
     private fun onTotalTransactionLoaded(transaction: List<Transaction>) = with(binding) {
-        val (totalIncome, totalExpense) = transaction.partition { it.transactionType == "Income" }
+        val (totalIncome, totalExpense) = transaction.partition { it.transactionType == "Ganho" }
         val income = totalIncome.sumOf { it.amount }
         val expense = totalExpense.sumOf { it.amount }
         incomeCardView.total.text = "+ ".plus(indianRupee(income))
