@@ -21,7 +21,7 @@
             android:layout_marginStart="@dimen/dimen_16"
             android:layout_marginTop="@dimen/dimen_32"
             android:fontFamily="@font/open_sans_bold"
-            android:text="@string/text_title"
+            android:text="Título"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
             android:layout_marginStart="@dimen/dimen_16"
             android:layout_marginTop="@dimen/dimen_24"
             android:fontFamily="@font/open_sans_bold"
-            android:text="@string/text_expense_amount"
+            android:text="Quantia"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title" />
@@ -73,7 +73,7 @@
             android:layout_marginStart="@dimen/dimen_16"
             android:layout_marginTop="@dimen/dimen_24"
             android:fontFamily="@font/open_sans_bold"
-            android:text="@string/text_expense_transaction_type"
+            android:text="Tipo de Transação"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/amount" />
@@ -89,7 +89,7 @@
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/caption_type"
-            tools:text="Income" />
+            tools:text="Receita" />
 
 
         <TextView
@@ -125,7 +125,7 @@
             android:layout_marginStart="@dimen/dimen_16"
             android:layout_marginTop="@dimen/dimen_24"
             android:fontFamily="@font/open_sans_bold"
-            android:text="@string/text_expense_when"
+            android:text="Quando"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tag" />
@@ -150,7 +150,7 @@
             android:layout_marginStart="@dimen/dimen_16"
             android:layout_marginTop="@dimen/dimen_24"
             android:fontFamily="@font/open_sans_bold"
-            android:text="@string/text_expense_note"
+            android:text="Descrição"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/date" />
@@ -175,7 +175,7 @@
             android:layout_marginStart="@dimen/dimen_16"
             android:layout_marginTop="@dimen/dimen_24"
             android:fontFamily="@font/open_sans_bold"
-            android:text="@string/text_createdAt"
+            android:text="Criado em"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/note" />

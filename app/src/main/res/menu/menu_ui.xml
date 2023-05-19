@@ -18,13 +18,13 @@
     <item
         android:id="@+id/action_about"
         android:enabled="true"
-        android:title="@string/text_about"
+        android:title="Sobre"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/action_export"
         android:enabled="true"
-        android:title="@string/text_export_csv"
+        android:title="Exportar para CSV"
         app:showAsAction="never" />
 
 </menu>

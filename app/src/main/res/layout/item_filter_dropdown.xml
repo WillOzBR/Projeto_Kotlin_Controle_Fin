@@ -9,4 +9,4 @@
     android:paddingEnd="16dp"
     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
     android:textColor="@color/black"
-    tools:text="Hello" />
+    tools:text="Olá" />

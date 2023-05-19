@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dimen_16"
-        android:hint="@string/text_title">
+        android:hint="Título">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_title"
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dimen_16"
-        android:hint="@string/text_expense_amount"
+        android:hint="Quantia"
         app:prefixText="@string/text_expense_rupees">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dimen_16"
-        android:hint="@string/text_expense_transaction_type"
+        android:hint="Tipo de Transação"
         app:boxBackgroundColor="@color/background">
 
         <AutoCompleteTextView
@@ -88,7 +88,7 @@
         android:layout_margin="@dimen/dimen_16"
         android:clickable="true"
         android:focusable="true"
-        android:hint="@string/text_expense_when"
+        android:hint="Quando"
         app:endIconDrawable="@drawable/ic_baseline_calendar"
         app:endIconMode="custom">
 
@@ -107,7 +107,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dimen_16"
-        android:hint="@string/text_expense_note">
+        android:hint="Descrição">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/et_note"

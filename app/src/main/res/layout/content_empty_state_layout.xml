@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/open_sans_bold"
         android:gravity="center_horizontal"
-        android:text="@string/text_transaction_empty_title"
+        android:text="Sem Transações Ainda!"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
         android:textColor="@color/black" />
 
@@ -41,7 +41,7 @@
         android:layout_marginEnd="@dimen/dimen_32"
         android:fontFamily="@font/open_sans_regular"
         android:gravity="center_horizontal"
-        android:text="@string/text_transaction_empty_desc"
+        android:text="Após sua primeira transação, você poderá vê-la aqui."
         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
         android:textColor="@color/black" />
 

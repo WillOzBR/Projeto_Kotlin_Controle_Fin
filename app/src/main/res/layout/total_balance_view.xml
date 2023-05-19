@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/open_sans_semibold"
             android:gravity="center_horizontal"
-            android:text="@string/text_total_balance"
+            android:text="SALDO TOTAL"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Overline" />
 
         <TextView
