@@ -48,8 +48,8 @@ class TransactionDetailsFragment : BaseFragment<FragmentTransactionDetailsBindin
     private fun showErrorDialog() =
         findNavController().navigate(
             TransactionDetailsFragmentDirections.actionTransactionDetailsFragmentToErrorDialog(
-                "Image share failed!",
-                "You have to enable storage permission to share transaction as Image"
+                "Compartilhamento de imagem falhou!",
+                "Você precisa ativar a permissão de armazenamento para compartilhar a transação como imagem"
             )
         )
 

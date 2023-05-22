@@ -72,22 +72,22 @@ class EditTransactionFragment : BaseFragment<FragmentEditTransactionBinding, Tra
                 // validate if transaction content is empty or not
                 when {
                     title.isEmpty() -> {
-                        this.etTitle.error = "Title must not be empty"
+                        this.etTitle.error = "Titulo não pode ser vazio"
                     }
                     amount.isNaN() -> {
-                        this.etAmount.error = "Amount must not be empty"
+                        this.etAmount.error = "Quantidade não pode ser vazio"
                     }
                     transactionType.isEmpty() -> {
-                        this.etTransactionType.error = "Transaction type must not be empty"
+                        this.etTransactionType.error = "Tipo de transação não pode ser vazio"
                     }
                     tag.isEmpty() -> {
-                        this.etTag.error = "Tag must not be empty"
+                        this.etTag.error = "Tag não pode ser vazio"
                     }
                     date.isEmpty() -> {
-                        this.etWhen.error = "Date must not be empty"
+                        this.etWhen.error = "Data não pode ser vazio"
                     }
                     note.isEmpty() -> {
-                        this.etNote.error = "Note must not be empty"
+                        this.etNote.error = "Descrição não pode ser vazio"
                     }
                     else -> {
                         viewModel.updateTransaction(getTransactionContent()).also {
