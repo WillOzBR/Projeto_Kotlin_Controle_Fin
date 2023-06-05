@@ -14,10 +14,6 @@
         app:liftOnScroll="true"
         tools:ignore="UnusedAttribute">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?actionBarSize" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.fragment.app.FragmentContainerView
@@ -28,6 +24,14 @@
         android:layout_marginTop="?actionBarSize"
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/purple"
+        app:layout_anchor="@+id/appbar"
+        app:layout_anchorGravity="center" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

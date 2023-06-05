@@ -4,7 +4,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="surface">#FFFFFF</color>
-    <color name="background">#f9f9f9</color>
+    <color name="background">#e9ecef</color>
     <color name="income">#6FCF97</color>
     <color name="expense">#EB5757</color>
+    <color name="purple">#5A189A</color>
+    <color name="purple_button">#3C096C</color>
+    <color name="purple_image">#7B2CBF</color>
+    <color name="purple_back">#b596e5</color>
 </resources>
